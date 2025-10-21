@@ -1,0 +1,120 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(53, 43, 80); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px 30px;
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  flex-wrap: wrap;
+  transition: 0.3 ease;
+
+}
+
+h1{
+    font-weight: bold;
+}
+
+aside {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+}
+
+.shopCar {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+section{
+    flex-grow: 1;
+}
+
+#itemsCart {
+    background-color: rgb(0, 0, 0);
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;
+    overflow-y: auto;
+
+}
+
+.producto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000000;
+  padding: 12px;
+
+}
+
+
+.elementList{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.btnAgregar{
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+
+  
+}
+
+
+.btnDelete{
+  border: 10px;
+  margin-top: 20px;
+
+}
+
+#carroCompra {
+  background-color: #00ff37;
+}
+
+#carroCompra {
+  background-color: #d3d3d3; /* gris suave */
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto; 
+  margin-bottom: 10px;
+  
+
+}
+
+
+#comprar{
+  background-color: #00ff2f;
+  border: none;
+  padding: 3px;
+  border-radius: 10px;
+  
+
+}
