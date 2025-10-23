@@ -74,9 +74,11 @@ section{
 .elementList{
   display: flex;
   flex-direction: column;
+  
 
 
 }
+
 
 .btnAgregar{
   display: flex;
@@ -103,7 +105,7 @@ section{
   border-bottom-left-radius: 10px;
   padding: 10px;
   height: 200px;
-  overflow-y: auto; 
+  overflow-y: scroll; 
   margin-bottom: 10px;
   
 
